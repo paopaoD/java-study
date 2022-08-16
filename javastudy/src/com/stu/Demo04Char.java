@@ -30,8 +30,11 @@ public class Demo04Char {
 
 
         // char类型是可以进行运算的，不同类型的数据先转换成同一类型，然后进行运算
-
+        /**
+         * char类型 只有运算的时候，才会转成相对应的字符码值
+         */
         System.out.println('a' + 10);   // 107
+
 
         // 练习：
         char c5 = 'b'+1;
